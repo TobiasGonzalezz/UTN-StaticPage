@@ -1,5 +1,5 @@
 <h1 align="center">✈️ Touring</h1>
-<h3 align="center">first project of the UTN together with the Polo IT, static page with form.</h3>
+<h3 align="center">First project of the UTN together with the Polo IT, static page with form.</h3>
 
 ---
 
