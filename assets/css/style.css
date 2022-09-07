@@ -38,6 +38,17 @@
 /* *{
     background-color: #ccc;
 } */
+.fa-solid, .fa-envelope {
+    margin: 0 15px;
+    color:black;
+    background: none;
+    font-size: 60px;
+}
+.fa-solid:hover,.fa-solid:hover {
+    filter: drop-shadow(1px 1px 3px #888);
+    cursor: pointer;
+}
+
 
 a {
     transition: all 0.25s ease-in-out;
@@ -1137,7 +1148,7 @@ html, body {
 .list-unstyled li a,
 .list-unstyled li p {
     font-size: 16px;
-    color: #8c8f94;
+    color: #202224;
     font-weight: 300;
 }
 
@@ -1544,7 +1555,10 @@ a.linkedin-bg:hover {
 
 /* esto es el fondo de contacto */
 .section-contact-us{
-    background-color: #ccc;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #3f5872, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 .section-contact-us h2 {
@@ -1576,13 +1590,13 @@ a.linkedin-bg:hover {
 
 .contact-info h3 {
     margin-left: 0;
-    color: #8c8f94;
+    color: #202224;
 }
 
 .contact-info .list-unstyled li {
     font-size: 14px;
     font-weight: 300;
-    color: #8c8f94;
+    color: #202224;
 }
 
 .contact-info .list-unstyled + h3,
@@ -1599,4 +1613,7 @@ a.linkedin-bg:hover {
 .section-map {
   height: 500px;
   width: 100%
+}
+li {
+    list-style: none;
 }
