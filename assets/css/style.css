@@ -74,7 +74,7 @@ p {
     margin-bottom: 0;
     font-size: 14px;
     font-weight: 300;
-    color: #9fa3a7;
+    color: #000;
     line-height: 22px;
 }
 
@@ -967,8 +967,9 @@ body {
 .section-services .col-md-3:nth-child(n+5) .service {
     margin-top: 60px;
 }
-.iconosFacheros {
-    min-height: 250px;
+.iconosFacheros img {
+    min-height:115px;
+    
 }
 .iconos-info {
     font-size: 13px; 
@@ -1003,6 +1004,7 @@ body {
     padding-left: 60px;
     padding-right: 60px;
     padding-bottom: 20px;
+    
 }
 
 /* Section: Map Feature */
@@ -1274,6 +1276,14 @@ a.linkedin-bg {
 
 a.linkedin-bg:hover {
     background-color: #007bb5;
+}
+a.gitHub-bg {
+    color:#000;
+    border-color:#000;
+}
+
+a.gitHub-bg:hover {
+    background-color:#000;
 }
 
 .copyright .text-right {
@@ -1681,4 +1691,40 @@ a.linkedin-bg:hover {
 li {
     list-style: none;
     margin-bottom: 16px;
+}
+
+.redes{
+    display: flex;
+    gap:50px;
+    
+
+}
+
+.textRedes{
+    font-size: 20px;
+}
+
+.redesAzul{
+    display: flex;
+    gap:10px;
+}
+
+.redesChris{
+    display: flex;
+    gap: 10px;
+}
+
+.redesMica{
+    display: flex;
+    gap: 10px;
+}
+
+.redesTobias{
+    display: flex;
+    gap: 10px;
+}
+
+.redesValeria{
+    display: flex;
+    gap: 10px;
 }
